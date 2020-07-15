@@ -1,0 +1,27 @@
+{
+  "name": "link-shortener",
+  "version": "1.0.0",
+  "description": "MERN stack implementation for link shortener project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "express",
+    "node",
+    "mongodb"
+  ],
+  "author": "Raida Mammadova <raidamamedova96@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.24"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  }
+}
