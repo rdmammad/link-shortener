@@ -1,13 +1,6 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@import "~materialize-css/dist/css/materialize.min.css";
+#root{
+    background: rgb(106,115,120);
+    background: linear-gradient(90deg, rgba(106,115,120,1) 0%, rgba(114,131,123,1) 50%, rgba(188,170,164,1) 100%);
+    height: 100vh;
 }
