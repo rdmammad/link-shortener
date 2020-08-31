@@ -57,9 +57,11 @@ router.post(
                 })
 
             const {email, password} = req.body;
-            const candidate = await User.findOne({email})
+            const user = await User.findOne({ email })
+            console.log("body ", req.body);
+            console.log("login ", user);
 
-            if(!!candidate)
+            if(!user)
                 return res.status(400).json({message: `User with ${email} email not exists`})
 
             const isMatch = await bcrypt.compare(password, user.password)
