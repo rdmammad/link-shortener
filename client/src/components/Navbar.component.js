@@ -16,9 +16,9 @@ const Navbar = () => {
             <div className="nav-wrapper grey lighten-1" style={{padding: "0 2rem"}}>
                 <span className="brand-logo">Link-Shortener</span>
                 <ul id="nav-mobile" className="right hide-on-med-and-down">
-                    <li><NavLink to="/create">Create</NavLink></li>
-                    <li><NavLink to="/links">Links</NavLink></li>
-                    <li><a href='/' onClick={logoutHandler}>Log out</a></li>
+                    <li><NavLink className='black-text' to="/create">Create</NavLink></li>
+                    <li><NavLink className='black-text' to="/links">Links</NavLink></li>
+                    <li><a href='/' onClick={logoutHandler} className='black-text'>Log out</a></li>
                 </ul>
             </div>
         </nav>
