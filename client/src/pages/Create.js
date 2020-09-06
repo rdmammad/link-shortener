@@ -23,7 +23,7 @@ const Create = () => {
     return (
         <div className='row'>
             <div className="col s8 offset-s2">
-                <h1>Create Page</h1>
+                <h1 className='white-text'>Create Page</h1>
                 <div className="input-field">
                     <input
                         id="link"
