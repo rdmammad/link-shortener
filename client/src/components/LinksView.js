@@ -14,7 +14,7 @@ export const LinksView = ({links}) => {
                 <th>#</th>
                 <th>Original</th>
                 <th>Shortened</th>
-                <th>Open</th>
+                <th>Action</th>
             </tr>
             </thead>
 

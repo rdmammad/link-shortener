@@ -1,4 +1,4 @@
-import React, {useContext, useState} from "react";
+import React, {useContext, useEffect, useState} from "react";
 import {useHttp} from "../hooks/http.hook";
 import {AuthContext} from "../context/auth.context";
 import {useHistory} from "react-router-dom";
@@ -8,6 +8,10 @@ const Create = () => {
     const auth = useContext(AuthContext)
     const [link, setLink] = useState('')
     const {request} = useHttp()
+
+    useEffect(() => {
+        window.M.updateTextFields()
+    }, [])
 
     const pressHandler = async e => {
         if (e.key !== 'Enter') return
