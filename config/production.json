@@ -1,0 +1,6 @@
+{
+  "port": 5000,
+  "jwtSecret": "rdmammad-osnova-jizni",
+  "mongoUri": "mongodb+srv://rdmammad:514313@cluster0.lctkf.azure.mongodb.net/app?retryWrites=true&w=majority",
+  "baseUrl": "http://localhost:5000"
+}
